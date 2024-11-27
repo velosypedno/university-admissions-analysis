@@ -21,7 +21,6 @@ data/
 *.sublime-workspace
 
 # Notebook outputs (e.g., images, plots)
-*.png
 *.jpg
 *.jpeg
 *.svg

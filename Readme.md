@@ -84,4 +84,4 @@ name, code, list of available years, region code
 *In the Jupyter interface, locate and click on the analysis.ipynb file to open it.*
 
 8. **Execute the notebook:**  
-![alt text](image.png)
+![alt text](toolbar.png)
