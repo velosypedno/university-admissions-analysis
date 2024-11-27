@@ -1,0 +1,30 @@
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+.venv/
+.env/
+env.bak/
+venv.bak/
+dist/
+build/
+data/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Notebook outputs (e.g., images, plots)
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.pdf
+
+
