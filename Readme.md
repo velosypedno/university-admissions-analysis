@@ -5,9 +5,7 @@
 The goal of the project is to investigate **trends** in higher education in Ukraine, to determine **the impact February 24** had on Ukrainian education.
 Issues of distribution by regions, specialties, and fields of knowledge have been studied.
 
----
-
-## **Dataset** (./data)
+## **Dataset** (data.tar.gz)
 
 ### 1) `tender_offers.csv`
 
@@ -43,6 +41,47 @@ name, code, list of available years, region code
 ## Basic Requirements
 
 - [**Python**](https://www.python.org/downloads/): Version 3.10 or later is recommended.
-- [**Jupyter Notebook**](https://jupyter.org/): For running `.ipynb` files.
 
----
+
+## Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/velosypedno/university-admissions-analysis.git
+   cd university-admissions-analysis
+   ```
+
+2. **Extract the archive:**
+
+    ```bash
+    tar -xzvf data.tar.gz -C ./data
+    ```
+
+3. **Create python venv:**
+
+    ```bash
+    python -m venv venv
+    source venv/bin/activate
+    ```
+
+4. **Install dependencies:**
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+5. **Run the analysis:**
+
+    ```bash
+    jupyter notebook
+    ```
+
+6. **Navigate to the Jupyter Notebook interface in your browser:**  
+*After running the command jupyter notebook, a browser window or tab will open. If it doesn’t, copy the URL shown in the terminal (it starts with http://localhost) and paste it into your browser.*
+
+7. **Open the notebook file:**  
+*In the Jupyter interface, locate and click on the analysis.ipynb file to open it.*
+
+8. **Execute the notebook:**  
+![alt text](image.png)
