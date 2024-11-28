@@ -42,7 +42,6 @@ name, code, list of available years, region code
 
 - [**Python**](https://www.python.org/downloads/): Version 3.10 or later is recommended.
 
-
 ## Installation
 
 1. **Clone the repository:**
@@ -55,7 +54,7 @@ name, code, list of available years, region code
 2. **Extract the archive:**
 
     ```bash
-    tar -xzvf data.tar.gz -C ./data
+    mkdir -p data && tar -xzvf data.tar.gz -C ./data
     ```
 
 3. **Create python venv:**
