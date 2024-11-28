@@ -54,7 +54,7 @@ name, code, list of available years, region code
 2. **Extract the archive:**
 
     ```bash
-    mkdir -p data && tar -xzvf data.tar.gz -C ./data
+    tar -xzvf data.tar.gz -C .
     ```
 
 3. **Create python venv:**
