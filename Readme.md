@@ -60,7 +60,7 @@ name, code, list of available years, region code
 3. **Create python venv:**
 
     ```bash
-    python -m venv venv
+    python3 -m venv venv
     source venv/bin/activate
     ```
 
